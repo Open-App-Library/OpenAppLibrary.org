@@ -40,3 +40,22 @@
 	color: #ab5757;
 	margin-right: 15px;
 }
+
+footer {
+	small {
+		display: block;
+		margin: 10px 0;
+	}
+	a {
+		color: #3f3f3f;
+		background: none;
+		&:hover {
+			background: none;
+		}
+	}
+	.social-icons {
+		display: inline-block;
+		margin: 0 auto;
+		width: auto;
+	}
+}
