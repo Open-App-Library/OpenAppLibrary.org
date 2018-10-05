@@ -2,11 +2,15 @@
 title:       Open App Library
 email:       hello@openapplibrary.org
 description: ""
-url:         "http://pixyll.com"
+url:         "https://openapplibrary.org"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
+ - projects.html
+ - newsletter.html
  - contact.html
+
+gitlabEditRootp: "https://gitlab.com/Open-App-Library/openapplibrary.org/edit/master/"
 
 # Google services
 google_tag_manager:
@@ -71,7 +75,7 @@ text:
     email:    'Email Address'
     content:  'What would you like to say?'
     subject:  'New submission!'
-    submit:   'Say Hello'
+    submit:   'Send'
     ajax:
       sending:  'sending..'
       sent:     'Message sent!'

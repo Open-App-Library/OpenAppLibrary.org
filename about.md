@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Project
+title: About
 permalink: /about/
 ---
 
@@ -38,7 +38,7 @@ Having your code publicly availible does not cover the entire spectrum of softwa
 
 ## Different ways to implement an open-source business model
 
-## SaaS (Software as a Service)
+### SaaS (Software as a Service)
 
 Vibrato Notes will follow an excellent open-source business model. All of the apps will be free whether you are on desktop or mobile. You will not need an account to use them.
 
@@ -78,3 +78,8 @@ Due to the complications of that special licence idea, I believe the best way is
 - Cloud syncing
 - Private forum
 
+## Does everything have to cost money?
+
+Not at all. It's very likely that the Open App Library will produce certain utilities free of cost.
+
+One of those apps in Particular is [MiniBoard](https://gitlab.com/Open-App-Library/MiniBoard). It's currently written in Gtk+3 but will likely be ported to Qt5. It is a free-to-use whiteboard / primative painting app with touchscreen / tablet support. It will also likely be the way that we implement drawing into Vibrato Notes later down the road.

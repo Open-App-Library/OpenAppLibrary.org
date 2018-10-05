@@ -38,7 +38,10 @@ layout: default
   <script src="https://txtpen.com/embed.js?site={{txtpen.txtpen_sitename}}" />
 {% endif %}
 
+{% include edit-this-page.html %}
+  
 {% if site.disqus_shortname %}
+  <small>Disqus is not a FOSS commenting system. Will be replacing it soon.</small>
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_shortname  = '{{ site.disqus_shortname }}';
@@ -69,3 +72,5 @@ layout: default
     </div>
   {% endfor %}
 {% endif %}
+
+
