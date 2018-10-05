@@ -1,0 +1,20 @@
+- title: Vibrato Notes
+  description: A powerful note-taking app for desktop and mobile.
+  url: https://vibrato.app
+  sources:
+    - title: "Source: Back-End"
+      url: "https://gitlab.com/Open-App-Library/Vibrato-Back-End"
+    - title: "Source: Desktop app"
+      url: "https://gitlab.com/Open-App-Library/vibratonotes-desktop"
+    - title: "Source: Web app"
+      url: "https://gitlab.com/Open-App-Library/Vibrato-Web-Front-End"
+- title: Escriba
+  description: A portable Qt5 Rich/Markdown text editor. It is used in Vibrato Notes.
+  sources:
+    - title: Source
+      url: "https://gitlab.com/Open-App-Library/escriba"
+- title: MiniBoard
+  description: A work-in-progress whiteboard/painting application with touchscreen support.
+  sources:
+    - title: Source
+      url: "https://gitlab.com/Open-App-Library/MiniBoard"

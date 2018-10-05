@@ -10,8 +10,6 @@ header_pages:
  - newsletter.html
  - contact.html
 
-gitlabEditRootp: "https://gitlab.com/Open-App-Library/openapplibrary.org/edit/master/"
-
 # Google services
 google_tag_manager:
 

@@ -1,7 +1,27 @@
 ---
-layout: center
+layout: page
 title: Projects
 permalink: /projects/
 ---
 
-Our apps
+<ul>
+  
+{% for project in site.data.projects %}
+<li>
+  <p>
+  {% if project.url %}
+    <a href="{{project.url}}">{{project.title}}</a>
+  {% else %}
+  {{project.title}}
+    {% endif %}
+  </p>
+  <p>{{project.description}}</p>
+  <ul>
+    {% for source in project.sources %}
+      <li><a href="{{source.url}}">{{source.title}}</a></li>
+    {% endfor %}
+  </ul>
+</li>
+{% endfor %}
+
+</ul>
