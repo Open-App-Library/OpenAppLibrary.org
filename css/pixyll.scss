@@ -130,3 +130,63 @@ a#edit-page { // The "Edit this page" link
 	text-decoration: underline;
     }
 }
+
+.app-title, .app-subtitle {
+    text-align: center;
+    margin: 15px;
+}
+
+.app-subtitle {
+    font-weight: 300;
+}
+
+.app-icon {
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.downloads-label {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3px;
+    color: #595959;
+}
+
+.app-downloads {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    a {
+	display: block;
+	text-align: center;
+	padding: 5px;
+	background: none;
+	&.app-help {
+	    font-family: sans;
+	    font-weight: bolder;
+	    padding: 0;
+	}
+	button {
+	    background: #edecec;
+	    color: #323232;
+	    transition: 150ms ease-in;
+	    border-radius: 5px;
+	    border-bottom: 3px solid #ccc;
+	    &:hover {
+		background: #606060;
+		border-color: #606060;
+		color: white;
+	    }	    
+	}
+    }
+}
+
+// .post-content p:first-child::first-letter {
+//     font-weight: bold;
+//     font-size: 2em;
+//     padding-right: 5px;
+//     line-height: 0;
+// }
