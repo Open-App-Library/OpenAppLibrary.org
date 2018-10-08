@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Announcing WideGuy, a tool that makes 
+title: Announcing WideGuy!
 date: 2018-10-08 16:34
-summary: WideGuy makes multi-monitor gaming easy.
+summary: WideGuy makes multi-monitor gaming easy. (It's basically a Xinerama GUI)
 categories: news
 ---
 
