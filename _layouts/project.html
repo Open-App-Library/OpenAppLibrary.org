@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="post">
+  <header class="post-header">
+    <img class="app-icon" alt="WideGuy Icon" src="{{page.icon}}"/>
+    <h1 class="h2 app-title">{{ page.title }}</h1>
+    <h2 class="h3 app-subtitle">{{page.subtitle}}</h2>
+    {% if page.downloads %}
+    <small class="downloads-label">Available Downloads</small>
+    {% endif %}
+    <div class="app-downloads">
+      {% for download in page.downloads %}
+      <div class="app">
+	<a target="_blank" href="{{download.url}}"><button>{{download.title}}</button></a>
+	{% if download.help %}
+	<a class="app-help" target="_blank" href="{{download.help}}">?</a>
+	{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </header>
+  <article class="post-content">
+  {{ content }}
+  </article>
+  {% include edit-this-page.html %}
+</div>
