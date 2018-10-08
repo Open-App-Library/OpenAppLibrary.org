@@ -8,6 +8,12 @@
       url: "https://gitlab.com/Open-App-Library/vibratonotes-desktop"
     - title: "Source: Web app"
       url: "https://gitlab.com/Open-App-Library/Vibrato-Web-Front-End"
+- title: WideGuy
+  description: A tool that makes multi-monitor gaming easy. (A GUI tool for Xinerama)
+  url: /project/wideguy
+  sources:
+    - title: Source
+      url: https://gitlab.com/Open-App-Library/WideGuy
 - title: Escriba
   description: A portable Qt5 Rich/Markdown text editor. It is used in Vibrato Notes.
   sources:
