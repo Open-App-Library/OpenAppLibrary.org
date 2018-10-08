@@ -42,7 +42,7 @@ WideGuy provides very basic but useful settings, accessible by the "WideGuy" men
 
 **xorg.conf location**: Choose where your xorg.conf is located. In most cases you shouldn't change this. The purpose of this option is to locate the file where your `Section "ServerLayout"` is.
 
-**Command to restart xorg**: This is the command that will restart Xorg. More accurately, this is the command that will restart your display manager. WideGuy tries to automatically detect your display manager and output a proper command. In this case, it succesfully determined that my display manager was SDDM, the typical display manager used on KDE distribution.
+**Command to restart xorg**: This is the command that will restart Xorg. More accurately, this is the command that will restart your display manager. WideGuy tries to automatically detect your display manager and output a proper command. In this case, it successfully determined that my display manager was SDDM, the typical display manager used on KDE distribution.
 
 ## Advanced Menu
 
