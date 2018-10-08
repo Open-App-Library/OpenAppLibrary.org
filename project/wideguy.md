@@ -1,7 +1,7 @@
 ---
 layout: project
 title: WideGuy
-subtitle: A tool that makes multi-monitor gaming easy. (A GUI tool for Xinerama)
+subtitle: A Linux tool that makes multi-monitor gaming easy. (A GUI tool for Xinerama)
 icon: /images/wideguy/icon.svg
 downloads:
   - title: AppImage
