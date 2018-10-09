@@ -4,7 +4,7 @@ title: WideGuy
 subtitle: A Linux tool that makes multi-monitor gaming easy. (A GUI tool for Xinerama)
 icon: /images/wideguy/icon.svg
 downloads:
-  - title: AppImage
+  - title: AppImage (v.0.5.1)
     url: https://github.com/Open-App-Library/WideGuy-Releases/releases/download/0.5.1/WideGuy-x86_64.AppImage
     help: https://itsfoss.com/use-appimage-linux/
   - title: Source Code
