@@ -5,7 +5,7 @@ subtitle: A Linux tool that makes multi-monitor gaming easy. (A GUI tool for Xin
 icon: /images/wideguy/icon.svg
 downloads:
   - title: AppImage
-    url: https://github.com/Open-App-Library/WideGuy-Releases/releases/download/0.5.0/WideGuy-x86_64.AppImage
+    url: https://github.com/Open-App-Library/WideGuy-Releases/releases/download/0.5.1/WideGuy-x86_64.AppImage
     help: https://itsfoss.com/use-appimage-linux/
   - title: Source Code
     url: https://gitlab.com/Open-App-Library/WideGuy
