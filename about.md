@@ -10,6 +10,9 @@ The first app and primary focus of the Open App Library will be [Vibrato Notes](
 
 5% of sales go to the open source projects that make our business possible.
 
+<span id="about-page-optin-heading">Get notified when Vibrato Notes launches!</span>
+{% include email-signup.html %}
+
 ## Freedom over Price
 
 When talking about free software it is important to understand the difference between "libre" and "gratis", two latin words that offer distinctions that the English language cannot.

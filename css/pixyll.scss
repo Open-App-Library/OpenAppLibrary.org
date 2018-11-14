@@ -4,11 +4,11 @@
 @charset "UTF-8";
 
 /*!
-* Pixyll - A simple, beautiful Jekyll theme that's mobile first.
-* @author John Otander <johnotander@gmail.com> (http://johnotander.com/)
-* @link https://github.com/johnotander/pixyll
-* @license MIT
-*/
+ * Pixyll - A simple, beautiful Jekyll theme that's mobile first.
+ * @author John Otander <johnotander@gmail.com> (http://johnotander.com/)
+ * @link https://github.com/johnotander/pixyll
+ * @license MIT
+ */
 
 @import 'variables';
 
@@ -38,33 +38,42 @@
 /*
  * Custom SCSS
  * -----------
- * This CSS will me moved 
- * to its own file once 
+ * This CSS will me moved
+ * to its own file once
  * it gets out of hand.
  */
 
+a.site-title {
+		color: #1A237F;
+}
+
+h1 {
+		margin: 0;
+		margin-bottom: 1rem;
+}
+
 .pinned-post-icon {
-	color: #ab5757;
-	margin-right: 15px;
+		color: #ab5757;
+		margin-right: 15px;
 }
 
 footer {
-	small {
-		display: block;
-		margin: 10px 0;
-	}
-	a {
-		color: #3f3f3f;
-		background: none;
-		&:hover {
-			background: none;
+		small {
+				display: block;
+				margin: 10px 0;
 		}
-	}
-	.social-icons {
-		display: inline-block;
-		margin: 0 auto;
-		width: auto;
-	}
+		a {
+				color: #3f3f3f;
+				background: none;
+				&:hover {
+						background: none;
+				}
+		}
+		.social-icons {
+				display: inline-block;
+				margin: 0 auto;
+				width: auto;
+		}
 }
 
 a#edit-page { // The "Edit this page" link
@@ -78,7 +87,7 @@ a#edit-page { // The "Edit this page" link
     transition: 100ms ease-in;
     margin: 15px 0;
     &:hover {
-	color: #6e6e6e;
+				color: #6e6e6e;
     }
 }
 
@@ -86,39 +95,39 @@ a#edit-page { // The "Edit this page" link
     max-width: 500px;
     margin: 0 auto;
     h2 {
-	text-align: center;
-	margin-top: 0;
-	color: #515151;
-	letter-spacing: 2px;
+				text-align: center;
+				margin-top: 0;
+				color: #515151;
+				letter-spacing: 2px;
     }
     label {
-	display: block;
-	font-size: 0.8rem;
+				display: block;
+				font-size: 0.8rem;
     }
     #fields {
-	width: 100%;
-	display: block;
-	max-width: 400px;
-	margin: 0 auto;
-	select, input {
-	    font-size: 0.6rem;
-	    padding: 4px;
-	    height: 40px;
-   	    width: 100%;
-	}
+				width: 100%;
+				display: block;
+				max-width: 400px;
+				margin: 0 auto;
+				select, input {
+						font-size: 0.6rem;
+						padding: 4px;
+						height: 40px;
+   					width: 100%;
+				}
     }
     input[type="submit"] {
-	display: block;
-	width: 90%;
-	max-width: 300px;
-	margin: 0 auto;
-	background: #3da0f3;
-	color: white;
-	font-weight: 900;
-	transition: 100ms ease-in;
-	&:hover {
-	    background: #3890da;
-	}
+				display: block;
+				width: 90%;
+				max-width: 300px;
+				margin: 0 auto;
+				background: #3da0f3;
+				color: white;
+				font-weight: 900;
+				transition: 100ms ease-in;
+				&:hover {
+						background: #3890da;
+				}
     }
 }
 #email-archives-link {
@@ -127,7 +136,7 @@ a#edit-page { // The "Edit this page" link
     display: block;
     background: none;
     &:hover {
-	text-decoration: underline;
+				text-decoration: underline;
     }
 }
 
@@ -160,28 +169,40 @@ a#edit-page { // The "Edit this page" link
     display: flex;
     justify-content: center;
     a {
-	display: block;
-	text-align: center;
-	padding: 5px;
-	background: none;
-	&.app-help {
-	    font-family: sans;
-	    font-weight: bolder;
-	    padding: 0;
-	}
-	button {
-	    background: #edecec;
-	    color: #323232;
-	    transition: 150ms ease-in;
-	    border-radius: 5px;
-	    border-bottom: 3px solid #ccc;
-	    &:hover {
-		background: #606060;
-		border-color: #606060;
-		color: white;
-	    }	    
-	}
+				display: block;
+				text-align: center;
+				padding: 5px;
+				background: none;
+				&.app-help {
+						font-family: sans;
+						font-weight: bolder;
+						padding: 0;
+				}
+				button {
+						background: #edecec;
+						color: #323232;
+						transition: 150ms ease-in;
+						border-radius: 5px;
+						border-bottom: 3px solid #ccc;
+						&:hover {
+								background: #606060;
+								border-color: #606060;
+								color: white;
+						}
+				}
     }
+}
+
+input {
+		border: 1px solid #d8d8d8;
+		border-radius: 3px;
+}
+
+#about-page-optin-heading {
+		text-align: center;
+		display: block;
+		font-weight: bold;
+		font-size: 1.3em;
 }
 
 // .post-content p:first-child::first-letter {

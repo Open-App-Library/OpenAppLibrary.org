@@ -1,8 +1,8 @@
 # Site settings
-title:       Open App Library
-email:       hello@openapplibrary.org
+title: The Open App Library Project
+email: hello@openapplibrary.org
 description: ""
-url:         "https://openapplibrary.org"
+url: "https://openapplibrary.org"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
