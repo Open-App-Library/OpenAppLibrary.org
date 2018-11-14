@@ -8,7 +8,7 @@ categories: Dev-Tutorials
 
 This guide will attempt to demystify the usage of icon themes in Qt applications.
 
-Icon themes are a standard on the Linux desktop but seem to be a foreign concept on Mac and Windows. Lucky for us, Qt has integrated icon themes quite seamlessly no matter what operating system you are using.
+Icon themes are standard on the Linux desktop but seem to be a foreign concept on Mac and Windows. Lucky for us, Qt has integrated icon themes quite seamlessly no matter what operating system you are using.
 
 To see a working example of icon theme usage that uses a variety of techniques from this article, check out our "[Qt5 Cross-Platform Icon Themes](https://gitlab.com/open-app-library-education/qt5-cross-platform-icon-themes)" repo.
 
