@@ -165,6 +165,20 @@ Easy peasy!
 
 ![The Result](/images/qt5-icons/result.png)
 
+## Bonus tip: Keep HiDPI support in mind
+
+If you ran the example project on a Mac with a retina display or any other device with a HiDPI display, you might have noticed the icons were a little bit blurry.
+
+You can fix this with a single magical line of C++:
+
+```c++
+QGuiApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
+```
+
+Before and after:
+
+![Before and after: HiDPI icons](/images/qt5-icons/hidpi.png)
+
 ## Did I miss anything about icon packs?
 
 Hope you have enjoyed this article. If you have any further questions or have any ideas to improve this guide, don't hesitate to drop a comment below.
