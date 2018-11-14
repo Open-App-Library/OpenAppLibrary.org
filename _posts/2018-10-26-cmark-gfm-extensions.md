@@ -3,7 +3,7 @@ layout: post
 title: Converting markdown to HTML with Github's CMark-GFM library in C + How to use extensions!
 date: 2018-10-26 22:25
 summary: Like many C libraries, CMark-GFM, does not have the most clear documentation. In this article we will learn how to use it.
-categories: tutorials
+categories: Dev-Tutorials
 ---
 
 Today, I was working on [MarkdownPanda](https://gitlab.com/Open-App-Library/markdownpanda), a bi-directiona HTML/Markdown conversion library that will be very important to [Vibrato Notes](https://vibrato.app).
@@ -23,7 +23,7 @@ int main()
 {
   char *markdown = "# Welcome";
   char *html = cmark_markdown_to_html(markdown, strlen(markdown), CMARK_OPT_DEFAULT);
-  
+
   printf("%s", html);
   free(html);
 
@@ -85,7 +85,7 @@ int main()
 {
   char *markdown = "# Welcome";
   char *html = to_html(markdown);
-  
+
   printf("%s", html);
   free(html);
 

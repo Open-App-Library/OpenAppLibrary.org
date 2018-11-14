@@ -3,7 +3,7 @@ layout: post
 title: Announcing WideGuy!
 date: 2018-10-08 16:34
 summary: WideGuy makes multi-monitor gaming easy. (It's basically a Xinerama GUI)
-categories: news
+categories: News
 ---
 
 Today I am very happy to announce [WideGuy](http://openapplibrary.org/project/wideguy)! A simple tool that solves a Linux gaming problem I came across.
