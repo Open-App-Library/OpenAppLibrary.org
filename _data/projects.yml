@@ -16,6 +16,7 @@
       url: https://gitlab.com/Open-App-Library/WideGuy
 - title: Escriba
   description: A portable Qt5 Rich/Markdown text editor. It is used in Vibrato Notes.
+  url: /project/escriba
   sources:
     - title: Source
       url: "https://gitlab.com/Open-App-Library/escriba"
