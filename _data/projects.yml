@@ -20,6 +20,11 @@
   sources:
     - title: Source
       url: "https://gitlab.com/Open-App-Library/escriba"
+- title: MarkdownPanda
+  description: The HTML to Markdown to HTML bi-directional C/C++ library. Used in Vibrato Notes.
+  sources:
+    - title: Source
+      url: "https://gitlab.com/Open-App-Library/markdownpanda"
 - title: MiniBoard
   description: A work-in-progress whiteboard/painting application with touchscreen support.
   sources:
