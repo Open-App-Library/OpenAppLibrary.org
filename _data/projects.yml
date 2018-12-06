@@ -2,6 +2,8 @@
   description: A powerful note-taking app for desktop and mobile.
   url: https://vibrato.app
   sources:
+    - title: "Submit Feature Requests"
+      url: "https://features.openapplibrary.org/"
     - title: "Source: Back-End"
       url: "https://gitlab.com/Open-App-Library/Vibrato-Back-End"
     - title: "Source: Desktop app"
