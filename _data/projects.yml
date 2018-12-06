@@ -3,7 +3,7 @@
   url: https://vibrato.app
   sources:
     - title: "Submit Feature Requests"
-      url: "https://features.openapplibrary.org/"
+      url: "https://features.vibrato.app/"
     - title: "Source: Back-End"
       url: "https://gitlab.com/Open-App-Library/Vibrato-Back-End"
     - title: "Source: Desktop app"
