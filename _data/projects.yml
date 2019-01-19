@@ -4,24 +4,29 @@
   sources:
     - title: "Submit Feature Requests"
       url: "https://features.vibrato.app/"
-    - title: "Source: Back-End"
+    - title: "Source: Sync Server (API)"
       url: "https://gitlab.com/Open-App-Library/Vibrato-Back-End"
     - title: "Source: Desktop app"
       url: "https://gitlab.com/Open-App-Library/vibratonotes-desktop"
     - title: "Source: Web app"
       url: "https://gitlab.com/Open-App-Library/Vibrato-Web-Front-End"
-- title: WideGuy
-  description: A tool that makes multi-monitor gaming easy. (A GUI tool for Xinerama)
-  url: /project/wideguy
-  sources:
-    - title: Source
-      url: https://gitlab.com/Open-App-Library/WideGuy
 - title: Escriba
   description: A portable Qt5 Rich/Markdown text editor. It is used in Vibrato Notes.
   url: /project/escriba
   sources:
     - title: Source
       url: "https://gitlab.com/Open-App-Library/escriba"
+- title: Vibrato Notes C++ Client API
+  description: An API client library for the Vibrato Notes Back-End API.
+  sources:
+    - title: Source
+      url: "https://gitlab.com/Open-App-Library/qt-vibrato-cloud-api-library"
+- title: WideGuy
+  description: A tool that makes multi-monitor gaming easy. (A GUI tool for Xinerama)
+  url: /project/wideguy
+  sources:
+    - title: Source
+      url: https://gitlab.com/Open-App-Library/WideGuy
 - title: MarkdownPanda
   description: The HTML to Markdown to HTML bi-directional C/C++ library. Used in Vibrato Notes.
   sources:
