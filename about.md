@@ -8,7 +8,7 @@ permalink: /about/
 
 The first app and primary focus of the Open App Library will be [Vibrato Notes](https://vibrato.app), a powerful cross-platform note-taking application. It will operate under a SaaS business model and charge an estimated $10 a month for its cloud note-syncing service. You will have the option of self-hosting at the expense of paying for your own server and providing your own server maintenance.
 
-5% of sales go to the open source projects that make our business possible.
+5% of sales go to open-source projects and foundations.
 
 <span id="about-page-optin-heading">Get notified when Vibrato Notes launches!</span>
 {% include email-signup.html %}
