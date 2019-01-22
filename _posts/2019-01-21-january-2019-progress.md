@@ -12,7 +12,7 @@ media_path: "/images/2019-01-21-progress"
 
 ## The Desktop App
 
-*Demo video: This video shows various features of the desktop app. Music by Kevin MacLeod (incompetech.com) under Creative Commons 3.0.*
+*Demo video: This video shows various features of the desktop app. Music by Kevin MacLeod (incompetech.com) under Creative Commons 3.0. Please excuse any flicking in the recording. I should've used SimpleScreenRecorder to avoid that problem.*
 
 There have been many improvements made in the desktop app. Let's go over them.
 
