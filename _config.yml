@@ -90,7 +90,7 @@ permalink: /:categories/:title
 paginate:     4
 sass:
   style: compressed
-plugins:
+plugins_dir:
   - jekyll-paginate
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
