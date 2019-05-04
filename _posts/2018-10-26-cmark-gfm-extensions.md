@@ -6,7 +6,7 @@ summary: Like many C libraries, CMark-GFM, does not have the most clear document
 categories: Dev-Tutorials
 ---
 
-Today, I was working on [MarkdownPanda](https://gitlab.com/Open-App-Library/markdownpanda), a bi-directiona HTML/Markdown conversion library that will be very important to [Vibrato Notes](https://vibrato.app).
+Today, I was working on [MarkdownPanda](https://github.com/Open-App-Library/markdownpanda), a bi-directiona HTML/Markdown conversion library that will be very important to [Vibrato Notes](https://vibrato.app).
 
 With MarkdownPanda, I have gone through quite the number of Markdown parsers. I started my decision with Sundown and Discount. Then decided to go with Hoedown. I was happy with Hoedown up until the point where I noticed super strange behavior in my unit tests where previous markdown->HTML operations would concatenate onto new ones...Super weird and just made me want to find something new. Came across CMark and found it absolutely perfect..Until I realized tables and strikethroughs were not implemented. **And then I found Github's own CMark-GFM**.
 
@@ -93,6 +93,6 @@ int main()
 }
 ```
 
-Hope this saved you some time! You can check out how we implemented this in MarkdownPanda by viewing [markdownpanda_md2html.c](https://gitlab.com/Open-App-Library/markdownpanda/blob/master/src/markdownpanda_md2html.c).
+Hope this saved you some time! You can check out how we implemented this in MarkdownPanda by viewing [markdownpanda_md2html.c](https://github.com/Open-App-Library/markdown-panda/blob/master/src/markdownpanda_md2html.c).
 
 If you enjoyed, feel free to [browse our open-source software](/projects/).

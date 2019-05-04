@@ -5,35 +5,36 @@
     - title: "Submit Feature Requests"
       url: "https://features.vibrato.app/"
     - title: "Source: Sync Server (API)"
-      url: "https://gitlab.com/Open-App-Library/Vibrato-Back-End"
+      url: "https://github.com/Open-App-Library/Vibrato-Notes-Back-End"
     - title: "Source: Desktop app"
-      url: "https://gitlab.com/Open-App-Library/vibratonotes-desktop"
+      url: "https://github.com/Open-App-Library/vibrato-notes-desktop"
     - title: "Source: Web app"
-      url: "https://gitlab.com/Open-App-Library/Vibrato-Web-Front-End"
-- title: Escriba
-  description: A portable Qt5 Rich/Markdown text editor. It is used in Vibrato Notes.
-  url: /project/escriba
+      url: "https://github.com/Open-App-Library/Vibrato-Web-Front-End"
+- title: MiniBoard
+  description: A whiteboard/painting application with touchscreen support.
+  url: /project/miniboard
   sources:
     - title: Source
-      url: "https://gitlab.com/Open-App-Library/escriba"
-- title: Vibrato Notes C++ Client API
-  description: An API client library for the Vibrato Notes Back-End API.
-  sources:
-    - title: Source
-      url: "https://gitlab.com/Open-App-Library/qt-vibrato-cloud-api-library"
+      url: "https://github.com/Open-App-Library/MiniBoard"
 - title: WideGuy
   description: A tool that makes multi-monitor gaming easy. (A GUI tool for Xinerama)
   url: /project/wideguy
   sources:
     - title: Source
-      url: https://gitlab.com/Open-App-Library/WideGuy
+      url: "https://github.com/Open-App-Library/WideGuy"
+- title: Escriba
+  description: A portable Qt5 Rich/Markdown text editor. It is used in Vibrato Notes.
+  url: /project/escriba
+  sources:
+    - title: Source
+      url: "https://github.com/Open-App-Library/escriba"
+- title: Vibrato Notes C++ Client API
+  description: An API client library for the Vibrato Notes Back-End API.
+  sources:
+    - title: Source
+      url: "https://github.com/Open-App-Library/Qt-Vibrato-Cloud-API"
 - title: MarkdownPanda
   description: The HTML to Markdown to HTML bi-directional C/C++ library. Used in Vibrato Notes.
   sources:
     - title: Source
-      url: "https://gitlab.com/Open-App-Library/markdownpanda"
-- title: MiniBoard
-  description: A work-in-progress whiteboard/painting application with touchscreen support.
-  sources:
-    - title: Source
-      url: "https://gitlab.com/Open-App-Library/MiniBoard"
+      url: "https://github.com/Open-App-Library/markdown-panda"

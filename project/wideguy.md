@@ -8,7 +8,7 @@ downloads:
     url: https://github.com/Open-App-Library/WideGuy-Releases/releases/download/0.5.1/WideGuy-x86_64.AppImage
     help: https://itsfoss.com/use-appimage-linux/
   - title: Source Code
-    url: https://gitlab.com/Open-App-Library/WideGuy
+    url: https://github.com/Open-App-Library/WideGuy
 ---
 
 Right now you might have a three-monitor setup. You're aching to get that immersive extra-wide-screen experience but to your frustration, your game only launches on one monitor.

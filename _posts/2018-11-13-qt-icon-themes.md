@@ -10,7 +10,7 @@ This guide will attempt to demystify the usage of icon themes in Qt applications
 
 Icon themes are standard on the Linux desktop but seem to be a foreign concept on Mac and Windows. Lucky for us, Qt has integrated icon themes quite seamlessly no matter what operating system you are using.
 
-To see a working example of icon theme usage that uses a variety of techniques from this article, check out our "[Qt5 Cross-Platform Icon Themes](https://gitlab.com/open-app-library-education/qt5-cross-platform-icon-themes)" repo.
+To see a working example of icon theme usage that uses a variety of techniques from this article, check out our "[Qt5 Cross-Platform Icon Themes](https://github.com/DougBeney/Qt5-Icon-Themes-Example)" repo.
 
 ## What is an "icon theme"?
 
@@ -42,7 +42,7 @@ Now, you can reference any icons in that folder by their filename (minus the fil
 
 To reference the icons, you can either use Qt Designer or enter it programatically.
 
-Here is how I changed a button's icon from [the example repo](https://gitlab.com/open-app-library-education/qt5-cross-platform-icon-themes/blob/master/main.cpp):
+Here is how I changed a button's icon from [the example repo](https://github.com/DougBeney/Qt5-Icon-Themes-Example/blob/master/main.cpp):
 
 ```c++
 b2->setIcon( QIcon::fromTheme("open-app-library") );

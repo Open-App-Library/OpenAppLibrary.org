@@ -26,11 +26,11 @@ Thanks to the helpful people at the [Qt forum](https://forum.qt.io) I found out 
 
 Now, instead of creating custom widgets which take time initializing, the note list items are painted using **QPainter**, which "performs low-level painting on widgets and other paint devices.", according to [the docs](http://doc.qt.io/qt-5/qpainter.html).
 
-[Commit c139b824](https://gitlab.com/Open-App-Library/vibratonotes-desktop/commit/c139b8244d496e7000bd0bf11ae026b77cecdccc)
+[Commit c139b824](https://github.com/Open-App-Library/vibrato-notes-desktop/commit/c139b8244d496e7000bd0bf11ae026b77cecdccc)
 
 ### A C++ API to interact with the back-end API
 
-[Qt-Vibrato-Cloud-API-Library](https://gitlab.com/Open-App-Library/qt-vibrato-cloud-api-library) was created to provide a C++ API for connecting to the [Note Sync Server](https://gitlab.com/Open-App-Library/Vibrato-Back-End).
+[Qt-Vibrato-Cloud-API-Library](https://github.com/Open-App-Library/Qt-Vibrato-Cloud-API) was created to provide a C++ API for connecting to the [Note Sync Server](https://github.com/Open-App-Library/Vibrato-Notes-Back-End).
 
 It is essentially complete minus the code for client-side encryption and decryption. That will come soon.
 
@@ -38,13 +38,13 @@ Now I am focusing on using the Qt-Vibrato-Cloud-API-Library in conjunction with 
 
 ## The back-end API / sync-server has a lot more functionality
 
-A ton of progress was made on [the back-end](https://gitlab.com/Open-App-Library/Vibrato-Back-End). When the server runs, there is now API documentation available at `{SERVER_URL}/docs`.
+A ton of progress was made on [the back-end](https://github.com/Open-App-Library/Vibrato-notes-Back-End). When the server runs, there is now API documentation available at `{SERVER_URL}/docs`.
 
 Thanks to the [Django Rest Framework](https://django-rest-framework.org/) it was quite easy to add useful features to the REST API such as sorting & filtering - As an example, you can sort by notes from oldest-to-newest using the URL `{SERVER_URL}/notes?ordering=date_created`.
 
 The supported authentication types are token authentication and OAuth2. You could generate a token for your account via the URL, `{SERVER_URL}/users/login` and use HTTP Basic Authentication with your user credentials. Tokens last for 30 days. You also can use the URL `{SERVER_URL}/users/logoutall` to delete all of your tokens.
 
-Various changes were made to the [database model](https://gitlab.com/Open-App-Library/Vibrato-Back-End/blob/master/notes/models.py).
+Various changes were made to the [database model](https://github.com/Open-App-Library/Vibrato-notes-Back-End/blob/master/notes/models.py).
 
 `sync_hash` was added to provide a unique "fingerprint" to all of your notes, notebooks and tags. Why not just use the database's built-in `id` field you might ask? It is very easy to run into `id` conflicts when you have multiple devices that can create notes offline, saving to a SQLite database, and then sending them up to the cloud eventually. The back-end API gives notes, notebooks and tags a unique fingerprint, called a `sync_hash` which is just a [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier). With this, you can easily check if an object exists in the cloud.
 
@@ -96,4 +96,4 @@ I have received a good amount of encouragement from reddit and greatly appreciat
 - [Vibrato Notes website](https://vibrato.app)
 - [Feature Requests](https://features.vibrato.aapp/)
 - [Telegram Group](https://t.me/joinchat/FslNFBYI88kLFXU5TJFJag)
-- [Source Code](https://gitlab.com/Open-App-Library)
+- [Source Code](https://github.com/Open-App-Library)

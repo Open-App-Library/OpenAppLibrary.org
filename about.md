@@ -85,4 +85,4 @@ Due to the complications of that special license idea, I believe the best way is
 
 Not at all. It's very likely that the Open App Library will produce certain utilities free of cost.
 
-One of those apps in Particular is [MiniBoard](https://gitlab.com/Open-App-Library/MiniBoard). It's currently written in Gtk+3 but will likely be ported to Qt5. It is a free-to-use whiteboard / primitive painting app with touchscreen / tablet support. It will also likely be the way that we implement drawing into Vibrato Notes later down the road.
+One of those apps in Particular is [MiniBoard](https://github.com/Open-App-Library/MiniBoard). It's currently written in Gtk+3 but will likely be ported to Qt5. It is a free-to-use whiteboard / primitive painting app with touchscreen / tablet support. It will also likely be the way that we implement drawing into Vibrato Notes later down the road.

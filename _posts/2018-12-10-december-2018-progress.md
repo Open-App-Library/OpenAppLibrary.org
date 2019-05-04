@@ -13,9 +13,9 @@ There is [now a website](https://vibrato.app) for Vibrato Notes, btw!
 
 Creating the first version of this app has taken much longer than I initially thought. It's common to go into software projects thinking that an idea is very easy to implement and then you keep encountering new design problems you hadn't thought of and the scope of the project keeps increasing.
 
-There were a few problems in the beginning of the development of Vibrato Notes that caused me to spend a lot of time, not neccesarily building the core app, but instead building libraries that would be needed for the app. Examples of those include [Markdown Panda](https://gitlab.com/Open-App-Library/markdownpanda) and [QBasicHtmlExporter](https://gitlab.com/Open-App-Library/QBasicHtmlExporter).
+There were a few problems in the beginning of the development of Vibrato Notes that caused me to spend a lot of time, not neccesarily building the core app, but instead building libraries that would be needed for the app. Examples of those include [Markdown Panda](https://github.com/Open-App-Library/markdownpanda) and [QBasicHtmlExporter](https://github.com/Open-App-Library/QBasicHtmlExporter).
 
-[Escriba](https://gitlab.com/Open-App-Library/escriba) is another library I had to spend a decent amount of time on. It is quite important as it is the hybrid text-editor used in the desktop application.
+[Escriba](https://github.com/Open-App-Library/escriba) is another library I had to spend a decent amount of time on. It is quite important as it is the hybrid text-editor used in the desktop application.
 
 Throughout the experience, I have drastically increased my ability to work with C and C++. It has been a lot of fun even in the most challenging parts, fighting off mysterious segfault after segfault.
 

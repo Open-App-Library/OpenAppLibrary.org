@@ -5,7 +5,7 @@ subtitle: ¡Escriba! A hybrid rich-text/Markdown editor for Qt.
 icon: /images/escriba/icon.png
 downloads:
   - title: Source Code
-    url: https://gitlab.com/Open-App-Library/escriba
+    url: https://github.com/Open-App-Library/escriba
 ---
 
 ![Screenshot](/images/escriba/screenshot.png)
