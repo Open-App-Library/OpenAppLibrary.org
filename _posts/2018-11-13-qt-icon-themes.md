@@ -179,6 +179,10 @@ Before and after:
 
 ![Before and after: HiDPI icons](/images/qt5-icons/hidpi.png)
 
+## Note for qt deployment
+
+Be aware that you have to deploy a plugin in case of svg images. You find the SVG + QIconEnginePlugin (as described under https://doc.qt.io/qt-5/qicon.html) plugins/iconengines. Otherwise the theme switch doesn't work.
+
 ## Did I miss anything about icon packs?
 
 Hope you have enjoyed this article. If you have any further questions or have any ideas to improve this guide, don't hesitate to drop a comment below.
